@@ -232,6 +232,7 @@ namespace AtYarısı
             this.Controls.Add(this.pictureBoxKopek);
             this.Controls.Add(this.pictureBoxKedi);
             this.Controls.Add(this.pictureBoxAt);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Animal Run";

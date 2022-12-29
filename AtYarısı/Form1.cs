@@ -26,7 +26,7 @@ namespace AtYarısı
         private void buttonBasla_Click(object sender, EventArgs e)
         {
             timer1.Enabled = true;
-            MessageBox.Show("Tahminler Kapandı!!!","YARIŞ BAŞLADI");
+            //MessageBox.Show("Tahminler Kapandı!!!","YARIŞ BAŞLADI");
             buttonTahminAt.Enabled = false;
             buttonTahminKöpek.Enabled = false;
             buttonTahminKedi.Enabled = false;
